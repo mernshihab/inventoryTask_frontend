@@ -69,7 +69,7 @@ export default function AllProducts() {
             <img
               src={`${import.meta.env.VITE_BACKEND_URL}${product.image}`}
               alt={product.name}
-              className="w-full h-48 object-cover"
+              className="w-full h-72 md:h-52 object-cover"
             />
             <div className="p-4 space-y-1">
               <h3 className="text-lg font-semibold text-gray-800">
