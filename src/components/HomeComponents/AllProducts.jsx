@@ -64,7 +64,7 @@ export default function AllProducts() {
         {filteredProducts?.map((product) => (
           <div
             key={product.id}
-            className="rounded-lg shadow-md hover:shadow-lg border border-gray-100 overflow-hidden transition-all duration-200 bg-white"
+            className="rounded-lg hover:scale-105 duration-300 shadow-md hover:shadow-lg border border-gray-100 overflow-hidden transition-all duration-200 bg-white"
           >
             <img
               src={`${import.meta.env.VITE_BACKEND_URL}${product.image}`}
